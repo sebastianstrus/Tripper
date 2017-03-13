@@ -111,6 +111,8 @@ class AllTripsTVC: UITableViewController {
         cell.imageView?.frame.size.width = 80
         
         cell.textLabel?.text = allTrips?[indexPath.row].title
+        cell.textLabel?.font = UIFont(name: "Baskerville-BoldItalic", size:25)
+        
         cell.backgroundColor = UIColor.clear
 
         return cell
